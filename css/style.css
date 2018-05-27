@@ -115,7 +115,14 @@ header .btn_share_fb {
     max-width: 100%;
     height: auto;
 }
-.cover-top .text {
+.banner-block {
+    background: url(../images/bn-top.png) no-repeat;
+    height: 350px;
+    width: 100%;
+    background-size: contain;
+    position: relative;
+}
+.banner-block .text {
     font-family: Roboto;
     text-transform: uppercase;
     text-align: center;
@@ -123,4 +130,93 @@ header .btn_share_fb {
     background: url(../images/bg-text.png);
     padding: 20px;
     color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
 }
+.flexbox {
+    display: flex;
+}
+.col.l4 {
+    width: calc(100%/3);
+    text-align: center;
+}
+.col.l6 {
+    width: calc(100%/2);
+    text-align: center;
+}
+.col.l2 {
+    width: calc(100%/6);
+    text-align: center;
+}
+.w994 {
+    width: 994px;
+    margin: 0 auto;
+}
+
+.content-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #008445;
+    padding-bottom: 20px;
+}
+
+.border-right {
+    border-right: 1px solid #008445;
+}
+
+.wid-80 {
+    width: 80%;
+    height: auto;
+}
+.wid-40 {
+    width: 40%;
+    height: auto;
+}
+.wid-60 {
+    width: 60%;
+    height: auto;
+}
+.wid-33 {
+    width: 33%;
+    height: auto;
+    margin-right: 5px;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+.align-left {
+    text-align: left !important;
+}
+.bottom-block .l4 .text {
+    color: #999999;
+    font-size: 11px;
+    font-family: Roboto;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.bottom-block {
+    margin-bottom: 30px;
+}
+.mail {
+    width: 140px;
+    height: 34px;
+}
+.phone {
+    height: 34px;
+}
+.box2-2 {
+    margin-top: 10px;
+}
+.box3-2 {
+    margin-top: 45px;
+}
+
+
+
